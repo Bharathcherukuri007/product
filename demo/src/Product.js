@@ -8,15 +8,12 @@ function Product(){
     
     const [cat3,setCat3]=useState("Rice")
     const [search,setSearch]=useState("")
-    var a ="Grocery & Staples";
-    var b="Rice & Rice Products";
-    var d ="Rice";
     var res1 = Products.data.map(a=>a["category_level1"])
-    res1=[... new Set(res1)]
+    res1=[...new Set(res1)]
     var res2 = Products.data.map(a=>a["category_level2"])
-    res2=[... new Set(res2)]
+    res2=[...new Set(res2)]
     var res3 = Products.data.map(a=>a["category_level3"])
-    res3=[... new Set(res3)]
+    res3=[...new Set(res3)]
     
 
     
