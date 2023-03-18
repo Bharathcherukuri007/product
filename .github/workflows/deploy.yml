@@ -34,4 +34,4 @@ jobs:
         NETLIFY_SITE_ID: e6c0dbcf-91de-4c1d-a0af-b53232acc398
         BUILD_COMMAND: "echo hello"
         INSTALL_COMMAND: "echo hello"
-        BUILD_DIRECTORY: 'build'
+        BUILD_DIRECTORY: 'demo/build'
