@@ -31,7 +31,7 @@ jobs:
       with:
         NETLIFY_AUTH_TOKEN: WA2Ik4YjneZhAgOAYehgVQMXCAGmLoQTscR2L3CgpI4
         NETLIFY_DEPLOY_TO_PROD: false
-        NETLIFY_SITE_ID: 2305de97-05a2-476a-8599-7780aa1f4ea4
+        NETLIFY_SITE_ID: 855b2ed1-c9b8-4ae6-9f48-90e5fc367626
         BUILD_COMMAND: "echo hello"
         INSTALL_COMMAND: "echo hello"
         BUILD_DIRECTORY: 'demo/build'
