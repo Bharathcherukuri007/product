@@ -30,8 +30,8 @@ jobs:
       uses: jsmrcaga/action-netlify-deploy@v2.0.0
       with:
         NETLIFY_AUTH_TOKEN: WA2Ik4YjneZhAgOAYehgVQMXCAGmLoQTscR2L3CgpI4
-        NETLIFY_DEPLOY_TO_PROD: false
-        NETLIFY_SITE_ID: 989eebc6-68f0-49ed-9f62-be0d88a9fcb6
+        NETLIFY_DEPLOY_TO_PROD: true
+        NETLIFY_SITE_ID: 87a2a1ad-1b0e-4365-a7df-39ca73944a8a
         BUILD_COMMAND: "echo hello"
         INSTALL_COMMAND: "echo hello"
         BUILD_DIRECTORY: 'demo/build'
