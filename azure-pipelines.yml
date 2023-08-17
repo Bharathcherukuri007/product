@@ -1,5 +1,6 @@
 # Node.js with React
 
+
 # Build a Node.js project that uses React.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
@@ -25,4 +26,11 @@ steps:
     PathtoPublish: 'demo/build'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Azure for Students Starter(cd2f300c-b008-423e-af33-822e1b8d4b5e)'
+    appType: 'webApp'
+    WebAppName: 'reactde'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/Bharathcherukuri007.product/demo'
 
