@@ -32,5 +32,5 @@ steps:
     azureSubscription: 'Azure for Students Starter(cd2f300c-b008-423e-af33-822e1b8d4b5e)'
     appType: 'webApp'
     WebAppName: 'reactde'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/_Bharathcherukuri007.product/drop'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/demo/build'
 
