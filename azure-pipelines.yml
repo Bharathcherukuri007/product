@@ -22,7 +22,7 @@ steps:
     npm run build
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'build'
+    PathtoPublish: 'demo/build'
     ArtifactName: 'drop'
     publishLocation: 'Container'
 
